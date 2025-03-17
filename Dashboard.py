@@ -167,4 +167,4 @@ with st.sidebar:
         )
         image = Image.open(r"my_photo.jpg")
         resized_image = image.resize((100, 100))
-        st.image(resized_image, caption="Developer", use_column_width=False)
+        st.image(resized_image, caption="Developer")
