@@ -40,7 +40,7 @@ def load_data():
     return data
 
 
-Set_Background(r"C:\Users\samar\Pictures\new.png")
+Set_Background(r"new.png")
 
 df = load_data()
 
