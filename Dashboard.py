@@ -33,8 +33,7 @@ def Set_Background(image_file):
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv(
-        r"C:\Users\samar\Documents\EU Business School\TERM_3\Data_Visualisation_and_Communication\FINAL\social_media_usage.csv")
+    data = pd.read_csv(r"social_media_usage.csv")
     data["Engagement_Rate"] = (data["Likes_Per_Day"] + data["Follows_Per_Day"]) / data["Posts_Per_Day"]
     data.replace([np.inf, -np.inf], 0, inplace=True)
     return data
