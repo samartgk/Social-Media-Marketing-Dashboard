@@ -166,6 +166,6 @@ with st.sidebar:
             This app was created by ALPHA.
             """
         )
-        image = Image.open(r"C:\Users\samar\Pictures\my_photo.jpg")
+        image = Image.open(r"Social-Media-Marketing-Dashboard/my_photo.jpg")
         resized_image = image.resize((100, 100))
         st.image(resized_image, caption="Developer", use_column_width=False)
